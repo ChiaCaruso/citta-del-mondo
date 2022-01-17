@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import axios from "axios";
 import CityCard from '../../Components/CityCard';
+import { http } from "../../Utility/tools"
 
 import styles from './PageCard.module.scss';
 
@@ -9,13 +9,8 @@ import styles from './PageCard.module.scss';
 const PageCard = ({ id }) => {
     const [values, setValues] = useState([]);
 
-    const getData = async () => {
-        const response = await axios.get(`https://api.musement.com/api/v3/cities/${id}.json`);
-        setValues(response.data);
-    }
-
     useEffect(() => {
-        getData();
+        http(`/${id}`).then((data) => setValues(data))
     }, [values]);
 
 
