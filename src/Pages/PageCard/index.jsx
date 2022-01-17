@@ -13,9 +13,9 @@ const PageCard = ({ id }) => {
     }
 
     useEffect(() => {
-        getData()       
+        getData();      
 
-    }, []);
+    }, [id]);
 
 
     return(
