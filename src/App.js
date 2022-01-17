@@ -13,7 +13,7 @@ return (
     <div className="container">
 
     <Routes>
-      <Route path='/' element={<Main />} />
+      <Route path='' element={<Main />} />
       <Route path={`/card/${id}`} element={<PageCard />} />
     </Routes>
       
