@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chiacaruso/citta-del-mondo/static/css/main.39d59411.css",
+    "main.js": "/chiacaruso/citta-del-mondo/static/js/main.b83038e7.js",
+    "static/js/787.764a833a.chunk.js": "/chiacaruso/citta-del-mondo/static/js/787.764a833a.chunk.js",
+    "static/media/header-img.png": "/chiacaruso/citta-del-mondo/static/media/header-img.d9aeba1297ddeceec770.png",
+    "index.html": "/chiacaruso/citta-del-mondo/index.html",
+    "main.39d59411.css.map": "/chiacaruso/citta-del-mondo/static/css/main.39d59411.css.map",
+    "main.b83038e7.js.map": "/chiacaruso/citta-del-mondo/static/js/main.b83038e7.js.map",
+    "787.764a833a.chunk.js.map": "/chiacaruso/citta-del-mondo/static/js/787.764a833a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39d59411.css",
+    "static/js/main.b83038e7.js"
+  ]
+}
