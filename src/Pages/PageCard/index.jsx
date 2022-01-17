@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import axios from "axios"
+import axios from "axios";
 import CityCard from '../../Components/CityCard';
 
 import styles from './PageCard.module.scss';
@@ -16,7 +16,7 @@ const PageCard = ({ id }) => {
 
     useEffect(() => {
         getData();
-    }, []);
+    }, [values]);
 
 
     return (
