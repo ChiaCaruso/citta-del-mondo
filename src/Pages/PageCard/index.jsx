@@ -6,12 +6,12 @@ import styles from './PageCard.module.scss';
 
 
 
-const PageCard = ({ id }) => {
+const PageCard = () => {
     const [values, setValues] = useState([]);
 
     useEffect(() => {
-        http(`/${id}`).then((data) => setValues(data))
-    }, [values]);
+        http(`/${values.id}`).then((data) => setValues(data))
+    }, [values.id]);
 
 
     return (
