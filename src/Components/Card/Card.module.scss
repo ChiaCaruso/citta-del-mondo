@@ -1,0 +1,80 @@
+@import "./../../Utility/general.scss";
+
+.wrapper_card {
+    position: relative;
+    display: block;
+    border-radius: $btn-radius;
+    overflow: hidden;
+    width: 400px;
+    height: 280px;
+
+}
+    
+ 
+        
+ img {
+    height: 100%;
+    border-radius: 16px;
+  }
+    
+
+    .card_text {
+        position: absolute;
+        height: 70px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;      
+        border-radius: $btn-radius;  
+        background-color: $secondary-blue;      
+        transform: translateY(0);
+        transition: $transition;
+        text-align: center;
+      }
+
+      .wrapper_card:hover .card_text {
+        height: 120px;
+      }
+
+   
+
+    
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .link{
+      background-color: $light-yellow;
+      border-radius: 50%;
+      padding: 10px 15px;
+      color: $secondary-blue;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+
+/* ---SCROLL BAR --- */
+
+::-webkit-scrollbar {
+    height: 10px;             
+    width: 8px;             
+  }
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(53,151,153,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: $primary-blue; 
+}

@@ -1,0 +1,23 @@
+@import "./../../Utility/general.scss";
+
+.header{
+    margin-top: 10px;
+    height: 370px;
+    padding: 40px 20px;
+    border-radius: $btn-radius;
+    
+    
+    background-image: url("./../../header-img.png"), $green-graduate;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .section_wrapper{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 80px;
+    row-gap: 30px;
+  }
