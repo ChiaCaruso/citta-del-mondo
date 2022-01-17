@@ -12,7 +12,7 @@ return (
 
     <div className="container">
 
-    <Routes basename="/citta-del-mondo">
+    <Routes >
       <Route path="" element={<Main />} />
       <Route path={`/card/${id}`} element={<PageCard />} />
     </Routes>
