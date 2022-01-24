@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/citta-del-mondo/static/css/main.0fa983c0.css",
-    "main.js": "/citta-del-mondo/static/js/main.c54a4034.js",
+    "main.css": "/citta-del-mondo/static/css/main.b4992165.css",
+    "main.js": "/citta-del-mondo/static/js/main.9894f57e.js",
     "static/js/787.764a833a.chunk.js": "/citta-del-mondo/static/js/787.764a833a.chunk.js",
     "static/media/header-img.png": "/citta-del-mondo/static/media/header-img.d9aeba1297ddeceec770.png",
     "index.html": "/citta-del-mondo/index.html",
-    "main.0fa983c0.css.map": "/citta-del-mondo/static/css/main.0fa983c0.css.map",
-    "main.c54a4034.js.map": "/citta-del-mondo/static/js/main.c54a4034.js.map",
+    "main.b4992165.css.map": "/citta-del-mondo/static/css/main.b4992165.css.map",
+    "main.9894f57e.js.map": "/citta-del-mondo/static/js/main.9894f57e.js.map",
     "787.764a833a.chunk.js.map": "/citta-del-mondo/static/js/787.764a833a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fa983c0.css",
-    "static/js/main.c54a4034.js"
+    "static/css/main.b4992165.css",
+    "static/js/main.9894f57e.js"
   ]
 }
