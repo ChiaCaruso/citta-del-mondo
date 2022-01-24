@@ -22,7 +22,7 @@ const Main = () => {
         setIsError(false);
         setIsLoading(true);
         try {
-          http(`/?offset=0&limit=100`).then((data) => setItem(data))
+          http("").then((data) => setItem(data))
     
         } catch (error) {
           console.log(error)

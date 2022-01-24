@@ -1,7 +1,7 @@
 
-const url = "https://api.musement.com/api/v3/cities.json";
+const url = "https://api.musement.com/api/v3/cities";
 
-const http = (resource) => fetch(url + resource)
+const http = (resource) => fetch(url + resource + ".json")
     .then((response) => response.json());
 
 

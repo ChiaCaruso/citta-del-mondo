@@ -6,15 +6,15 @@ import PageCard from './Pages/PageCard';
 import './Utility/general.scss';
 
 
-function App({id}) {
+function App() {
 
 return (
 
     <div className="container">
 
     <Routes >
-      <Route path="" element={<Main />} />
-      <Route path={`/card/${id}`} element={<PageCard />} />
+      <Route path="/" element={<Main />} />
+      <Route path="/card/:id" element={<PageCard />} />
     </Routes>
       
     </div>

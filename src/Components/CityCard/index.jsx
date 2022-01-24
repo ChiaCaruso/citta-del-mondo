@@ -4,7 +4,7 @@ import styles from './CityCard.module.scss';
 
 const CityCard = ({image, name, text}) => {
     return (
-        <div className={styles.PageCard_wrapper}>
+        <div className={styles.pageCard_wrapper}>
 
             <div className={styles.card_header}>
                 <img src={image} alt={name} />
