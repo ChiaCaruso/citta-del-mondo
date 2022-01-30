@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.da4508c2.css",
-    "main.js": "./static/js/main.21d2091c.js",
-    "static/js/787.764a833a.chunk.js": "./static/js/787.764a833a.chunk.js",
-    "static/media/header-img.png": "./static/media/header-img.d9aeba1297ddeceec770.png",
-    "index.html": "./index.html",
-    "main.da4508c2.css.map": "./static/css/main.da4508c2.css.map",
-    "main.21d2091c.js.map": "./static/js/main.21d2091c.js.map",
-    "787.764a833a.chunk.js.map": "./static/js/787.764a833a.chunk.js.map"
+    "main.css": "/city_app/static/css/main.4f839754.css",
+    "main.js": "/city_app/static/js/main.7652742e.js",
+    "static/js/787.764a833a.chunk.js": "/city_app/static/js/787.764a833a.chunk.js",
+    "static/media/header-img.png": "/city_app/static/media/header-img.d9aeba1297ddeceec770.png",
+    "index.html": "/city_app/index.html",
+    "main.4f839754.css.map": "/city_app/static/css/main.4f839754.css.map",
+    "main.7652742e.js.map": "/city_app/static/js/main.7652742e.js.map",
+    "787.764a833a.chunk.js.map": "/city_app/static/js/787.764a833a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da4508c2.css",
-    "static/js/main.21d2091c.js"
+    "static/css/main.4f839754.css",
+    "static/js/main.7652742e.js"
   ]
 }
