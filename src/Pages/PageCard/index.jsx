@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import CityCard from '../../Components/CityCard';
 import { http } from "../../Utility/tools"
 
@@ -18,10 +18,16 @@ const PageCard = () => {
 
 
     return (
-        <div className={styles.page_wrapper} >
-            {
-                <CityCard key={values.id} name={values.name} image={values.cover_image_url} text={values.content} />
-            }
+        <div className={styles.main}>
+            <div className={styles.card_button}>
+                <Link to="/city_app">Torna alla Home</Link>
+            </div>
+            <div className={styles.page_wrapper} >
+
+                {
+                    <CityCard key={values.id} name={values.name} image={values.cover_image_url} text={values.content} />
+                }
+            </div>
         </div>
     );
 };

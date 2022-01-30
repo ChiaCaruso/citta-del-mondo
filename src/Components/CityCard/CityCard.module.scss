@@ -1,12 +1,42 @@
-
+@import "./../../Utility/general.scss";
 
 .pageCard_wrapper{
-    width: 90%;
+    color: $dark-blue;
 }
 
 .card_header{
+    width: 100%;
+    border-radius: $btn-radius;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(243,191,138,1) 0%, rgba(245,244,239,1) 94%);
 
     img{
-        width: 300px;
+        max-width: 500px;
+    }
+
+    ._card_header_text {
+        margin: 0 auto;
+        
+        h2 {
+            font-weight: 900;
+            font-size: 5rem;
+        }
+    }
+}
+
+.card_text {
+    padding: 50px;
+    margin: 30px auto;
+
+    h4 {
+        font-weight: 900;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 20px;
+        text-align: justify;
     }
 }
