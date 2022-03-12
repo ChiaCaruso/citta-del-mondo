@@ -33,3 +33,15 @@
     background: none;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 700px) {
+
+    .header{
+      margin-top: 0;     
+     background: $green-graduate;
+    }
+
+    .section_wrapper{
+      grid-template-columns: 1fr;
+    }
+  }

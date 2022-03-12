@@ -78,3 +78,15 @@
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: $primary-blue; 
 }
+
+@media screen and (max-width: 700px) {
+
+  .wrapper_card {
+    width: 300px;
+    height: 300px;
+}
+
+.card_text {
+  height: 80px;
+}
+}

@@ -40,3 +40,34 @@
         text-align: justify;
     }
 }
+
+@media screen and (max-width: 700px) {
+
+    .card_header{
+        flex-direction: column-reverse;
+    
+        img{
+            max-width: 320px;
+            margin-top: 30px;
+        }
+    
+        ._card_header_text {
+            
+            h2 {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .card_text {
+        margin: 0;
+    
+        h4 {
+            font-size: 1.8rem;
+        }
+    
+        p {
+            text-align: left;
+        }
+    }
+  }

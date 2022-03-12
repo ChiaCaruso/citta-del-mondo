@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import CityCard from '../../Components/CityCard';
+import ButtonUp from '../../Components/ButtonUp';
 import { http } from "../../Utility/tools"
 
 import styles from './PageCard.module.scss';
@@ -28,6 +29,8 @@ const PageCard = () => {
                     <CityCard key={values.id} name={values.name} image={values.cover_image_url} text={values.content} />
                 }
             </div>
+
+            <ButtonUp />
         </div>
     );
 };
